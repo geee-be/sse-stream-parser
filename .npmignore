@@ -1,0 +1,22 @@
+# Rely on the files field in package.json to whitelist contents
+# Keep this file minimal as a safety net for local publishes
+
+# Never publish tests or configs
+/test/
+/.vscode/
+/.idea/
+/biome.json
+/tsconfig.json
+
+# Source files are excluded by files field, but ignore explicitly too
+/src/
+
+# Node & tooling noise
+node_modules/
+*.log
+
+# Coverage and caches
+coverage/
+.nyc_output/
+.vitest/
+.cache/

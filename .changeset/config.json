@@ -1,0 +1,14 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.4.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "geee-be/sse-stream-parser"
+    }
+  ],
+  "commit": true,
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}
