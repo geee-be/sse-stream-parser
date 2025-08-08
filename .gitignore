@@ -26,7 +26,6 @@ pnpm-debug.log*
 !.env.example
 
 # Editor & IDE
-.vscode/
 .idea/
 .history/
 
