@@ -1,7 +1,7 @@
 {
   "name": "@geee-be/sse-stream-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tiny zero-dependency Server-Sent Events (SSE) stream parser for browsers and Node.js.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -9,17 +9,38 @@
     "build": "tsup",
     "clean": "rimraf dist || true",
     "prepublishOnly": "pnpm build",
-    "changes": "changeset",
     "changeset": "changeset",
     "version": "changeset version && pnpm build",
     "release": "changeset publish",
     "test": "vitest run --reporter=dot",
     "test:watch": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "sse",
+    "server-sent events",
+    "eventsource",
+    "event-stream",
+    "stream",
+    "parser",
+    "fetch",
+    "web streams",
+    "readablestream",
+    "typescript",
+    "esm",
+    "cjs",
+    "zero-dependency"
+  ],
   "author": "",
   "license": "MIT",
   "packageManager": "pnpm@10.6.5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geee-be/sse-stream-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geee-be/sse-stream-parser/issues"
+  },
+  "homepage": "https://github.com/geee-be/sse-stream-parser#readme",
   "sideEffects": false,
   "files": [
     "dist",
