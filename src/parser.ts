@@ -100,7 +100,6 @@ export type ByteReadableStream = {
 export async function consumeSSEStream(
   body: ByteReadableStream,
   onEvent: (e: SSEEvent) => void,
-  onComplete?: () => void,
 ): Promise<void> {
   const parser = createSSEParser(onEvent);
   const reader = body.getReader();
@@ -113,6 +112,5 @@ export async function consumeSSEStream(
   } finally {
     parser.finish();
     reader.releaseLock?.();
-    onComplete?.();
   }
 }
