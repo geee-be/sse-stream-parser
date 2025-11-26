@@ -1,5 +1,11 @@
 # @geee-be/sse-stream-parser
 
+## 1.0.3
+
+### Patch Changes
+
+- [`035ccbd`](https://github.com/geee-be/sse-stream-parser/commit/035ccbd796f96096fc47fc3c6019d63abfe98113) Thanks [@gregbacchus](https://github.com/gregbacchus)! - Removed unnecessary onComplete callback
+
 ## 1.0.2
 
 ### Patch Changes

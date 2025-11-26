@@ -1,6 +1,6 @@
 {
   "name": "@geee-be/sse-stream-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny zero-dependency Server-Sent Events (SSE) stream parser for browsers and Node.js.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
